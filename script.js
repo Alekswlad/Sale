@@ -17,7 +17,7 @@ showOrderBtn.addEventListener("click", () => {
 });
 
 async function getGoods() {
-  let url = "https://my-json-server.typicode.com/OlhaKlymas/json-lesson/goods";
+  let url = "https://645918a24eb3f674df867d8d.mockapi.io/goods";
   let response = await fetch(url);
   return response.json();
 }
