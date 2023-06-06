@@ -399,7 +399,7 @@ function setBtnProductsEvent() {
 function showTimer() {
   const badgeSale = document.querySelectorAll(".tile__badge--sale");
   const span = `<span class="tile__sale-info sale">
-                    <span class="sale__text">Акція діє до 01.04.2023</span>
+                    <span class="sale__text">Акція діє до 01.07.2023</span>
                     <span class="sale__counter"></span>
                 </span>`;
 
@@ -412,7 +412,7 @@ function showTimer() {
 
 function setCounter() {
   const counter = document.querySelectorAll(".sale__counter");
-  const timeOf = new Date(2023, 3, 1);
+  const timeOf = new Date(2023, 6, 1);
   let timeId = null;
   let remaining = timeOf - new Date();
   if (remaining <= 0) {
