@@ -340,7 +340,7 @@ function setBtnProductsEvent() {
 //   let currentTime = new Date().getTime();
 //   if (
 //     localStorage.getTime("close time") == null ||
-//     currentTime - localStorage.getTime("close time") > 604800000
+//     currentTime - localStorage.getTime("close time") > 6048000
 //   ) {
 //     setTimeout(() => {
 //       saleBanner.classList.remove("hidden");
